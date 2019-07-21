@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+    app:
+        image: 'ui'
+        build: '.'
+        ports:
+            - 3324:80
